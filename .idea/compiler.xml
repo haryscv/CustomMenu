@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AjcSettings">
+    <option name="ajcPath" value="$MAVEN_REPOSITORY$/org/aspectj/aspectjtools/1.9.6/aspectjtools-1.9.6.jar" />
+    <option name="cmdLineParams" value="-Xlint:ignore -showWeaveInfo" />
+    <option name="delegateToJavac" value="true" />
+  </component>
+  <component name="CompilerConfiguration">
+    <excludeFromCompile>
+      <directory url="file://$PROJECT_DIR$/src/main/resources/archetype-resources" includeSubdirectories="true" />
+    </excludeFromCompile>
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="JavaServices" />
+        <module name="MPA-GeneralPlugin-LanguagePack_SV" />
+        <module name="CustomMenu" />
+        <module name="MPA-GeneralPlugin" />
+      </profile>
+    </annotationProcessing>
+  </component>
+</project>

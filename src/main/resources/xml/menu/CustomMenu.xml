@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu>
+    <dynamic-menuitem id="CustomMenu" class="com.test.plugin.menu.dynamicmenus.CustomMenu">
+    </dynamic-menuitem>
+    <separator/>
+</menu>
